@@ -1,0 +1,186 @@
+
+/*menu burger*/
+	#navbar ul{
+		padding:0px;
+		margin:0px;
+		list-style-type: none;
+
+	}
+
+	#navbar li {
+		padding:0px;
+		margin:0px;
+		display:inline-block;
+		width:210px;
+		height:100%;
+		text-align: center;
+		line-height: 40px;
+		}
+
+	#navbar li a{
+			display: block;
+			text-decoration: none;
+			color: #000000;
+			text-align: center;
+			}
+
+	/*couleur rose apparait lorsque l'on passe avec la souris sur les différentes rubriques du menu*/
+	#navbar li :hover{
+			color: #CC7283;
+		}
+	
+	/*titre (rubrique)*/
+	h1 {
+		color:#CC7283;
+		font-family: tahoma;
+		text-align:center;
+		font-size:25px;
+		margin-top:40px;
+		
+	} 
+	/*titre de l'article*/
+	h2 {
+		text-align: center;
+		font-family: Handlee;
+	}
+	
+	/* texte */
+	p {
+	text-align: justify;
+	font-family:tahoma;
+	
+}
+
+/*photo de l'article*/
+	#image {
+text-align: center;
+}
+
+/*contenu*/
+	body {
+background:white;
+font-family:tahoma;
+text-align:justify;
+
+}
+ /*header*/
+.header {
+   background-color:white;
+}
+
+.propos{
+	border-radius: 20%;
+}
+
+/*date des articles*/
+#date {
+	color:#E0E0E0;
+}
+/*A propos de moi / contact sur le footer */
+#gauche {
+	float:left;
+	position: relative;
+	left:30px;
+	bottom:-50px;
+	padding-left: 20px;
+}
+
+/*A propos de moi / contact sur le footer : pour changer la couleur dès le passage de la souris */
+.inline-list li {
+	display: inline-block;
+	list-style: none;
+}
+
+.inline-list {
+	text-align: left;
+	padding-left: 0;
+	padding-top: 40px;
+}
+.inline-list :hover{
+			color: #CC7283;
+		}
+/*A propos de moi / contact sur le footer : retirer les couleurs des liens */
+.inline-list a{
+			text-decoration: none;
+			color: #000000;
+			}
+
+/*footer*/
+.footer {
+   font-family:tahoma;
+   background-color:#E0E0E0;
+   height:120px;
+   bottom:0;
+   left:0;
+   right:0;
+   display:inline-block;
+   width:100%;
+  }
+
+/*articles*/
+#article1 {
+	border: 2px solid #FFFFFF;
+			margin-right: 2px;
+			margin-left: 2px;
+			margin-bottom: 25px;
+}
+
+/*ligne en pointillés*/
+#point {
+	float:left;
+	margin-left:1px;
+	margin-right:50px;
+	color:#CC7283;
+
+
+}
+
+/*pictogrammes en dessous des articles qui permettent de liker/partager*/
+#picto {
+	float:left;
+	margin-right:5px;
+
+/*formulaire de contact*/
+
+}
+form {
+       margin:auto;
+       padding: 1em;
+       border: 2px dashed #E0E0E0;
+       }    
+
+       label {
+       display: inline-block;
+       width: 100px;
+       text-align: right;
+
+       }
+
+       input, textarea {
+          width: 250px;
+
+  }
+
+       .button {
+      	  text-align: right;
+       }
+
+       .bouton-formulaire {
+      margin-left: .5em;
+      width: 190px;
+      height: 30px;
+      background-color:#CC7283;
+      color: #E0E0E0;
+      font-family: "tahoma";
+      font-size: 15px;
+      border-radius: 1em;
+
+       }
+	/* carroussel */
+	#carouselExampleIndicators{
+	border: dashed 2px #E0E0E0;
+	padding:0px;
+	margin: 4px;
+	border-spacing: -2px;
+}
+
